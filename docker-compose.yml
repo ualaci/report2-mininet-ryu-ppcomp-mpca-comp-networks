@@ -7,10 +7,11 @@ services:
     privileged: true # Necessário para o Mininet configurar interfaces de rede host
     network_mode: "host" # Útil para compartilhar conectividade do X11 (Wireshark) e Mininet local
     environment:
-      - DISPLAY=${DISPLAY:-:0} # Passa o display do X11 do host para o container
+      # Ao rodar via WSL2 (Windows 11), passamos o display nativo do WSLg
+      - DISPLAY=${DISPLAY:-:0}
     volumes:
       - .:/workspace # Mapeia a pasta atual
-      - /tmp/.X11-unix:/tmp/.X11-unix:rw # Para compartilhar a janela gráfica do host com o container
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw # Compartilha o socket gráfico do WSLg nativo do Windows 11
       - /lib/modules:/lib/modules:ro # Módulos do kernel necessários para o Mininet e Open vSwitch
     stdin_open: true # Mantém a execução iterativa aberta
     tty: true        # Permite uso de terminal

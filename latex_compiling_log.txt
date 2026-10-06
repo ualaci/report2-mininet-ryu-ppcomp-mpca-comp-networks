@@ -1,0 +1,142 @@
+Rc files read (in order):
+  NONE
+Latexmk: This is Latexmk, John Collins, 9 March 2026. Version 4.88.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'xelatex'...
+Rule 'xelatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'xelatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'xelatex'
+------------
+------------
+Running 'xelatex -no-pdf -synctex=1 -interaction=nonstopmode -file-line-error -recorder  "/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex"'
+------------
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-08-10>
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2026/texmf-dist/tex/latex/base/size12.clo)) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/base/fontenc.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmr.fd)) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel/babel.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/babel/xebabel.def) (/usr/local/texlive/2026/texmf-dist/tex/generic/babel/locale/invalid/babel-brazil.tex)
+
+Package babel Warning: Name 'brazil' is deprecated.
+(babel)                Use 'brazilian' instead.
+(babel)                Reported on input line 4459.
+
+(/usr/local/texlive/2026/texmf-dist/tex/generic/babel-portuges/brazilian.ldf)) (/usr/local/texlive/2026/texmf-dist/tex/latex/geometry/geometry.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/ifvtex.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/iftex/iftex.sty))) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hyperref.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (/usr/local/texlive/2026/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (/usr/local/texlive/2026/texmf-dist/tex/generic/pdfescape/pdfescape.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/usr/local/texlive/2026/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/usr/local/texlive/2026/texmf-dist/tex/latex/hycolor/hycolor.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/nameref.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/refcount/refcount.sty) (/usr/local/texlive/2026/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (/usr/local/texlive/2026/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/local/texlive/2026/texmf-dist/tex/generic/stringenc/stringenc.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/pd1enc.def) (/usr/local/texlive/2026/texmf-dist/tex/generic/intcalc/intcalc.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/puenc.def) (/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty) (/usr/local/texlive/2026/texmf-dist/tex/generic/bitset/bitset.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty))) (/usr/local/texlive/2026/texmf-dist/tex/latex/hyperref/hxetex.def (/usr/local/texlive/2026/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (/usr/local/texlive/2026/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty))) (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/listings.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstpatch.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/local/texlive/2026/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/xetex.def) (/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/local/texlive/2026/texmf-dist/tex/latex/l3kernel/l3backend-xetex.def) (./relatorio.aux)
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+[1] (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd) [1] [2] (/usr/local/texlive/2026/texmf-dist/tex/latex/listings/lstlang1.sty)
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:163: Undefined control sequence.
+l.163     \includegraphics
+                          [width=0.9\textwidth]{"lab1_images/openflow simple...
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:163: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.163     \includegraphics[width=0.9\textwidth]
+                                               {"lab1_images/openflow simple...
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:163: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.163     \includegraphics[width=0.9\textwidth]
+                                               {"lab1_images/openflow simple...
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:163: Missing $ inserted.
+<inserted text> 
+                $
+l.163 ...cludegraphics[width=0.9\textwidth]{"lab1_
+                                                  images/openflow simple swi...
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:163: Argument of \language@active@arg" has an extra }.
+<inserted text> 
+                \par 
+l.163 ..."lab1_images/openflow simple switch.png"}
+                                                  
+Runaway argument?
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:163: Paragraph ended before \language@active@arg" was complete.
+<to be read again> 
+                   \par 
+l.163 ..."lab1_images/openflow simple switch.png"}
+                                                  
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:163: Missing $ inserted.
+<inserted text> 
+                $
+l.163 ..."lab1_images/openflow simple switch.png"}
+                                                  
+[3]
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:225: Undefined control sequence.
+l.225     \includegraphics
+                          [width=0.9\textwidth]{"lab2_images/Screenshot_2.png"}
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:225: Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.225     \includegraphics[width=0.9\textwidth]
+                                               {"lab2_images/Screenshot_2.png"}
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:225: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.225     \includegraphics[width=0.9\textwidth]
+                                               {"lab2_images/Screenshot_2.png"}
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:225: Missing $ inserted.
+<inserted text> 
+                $
+l.225 ...cludegraphics[width=0.9\textwidth]{"lab2_
+                                                  images/Screenshot_2.png"}
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:225: Argument of \language@active@arg" has an extra }.
+<inserted text> 
+                \par 
+l.225 ...extwidth]{"lab2_images/Screenshot_2.png"}
+                                                  
+Runaway argument?
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:225: Paragraph ended before \language@active@arg" was complete.
+<to be read again> 
+                   \par 
+l.225 ...extwidth]{"lab2_images/Screenshot_2.png"}
+                                                  
+/workspaces/report2-mininet-ryu-ppcomp-mpca-comp-networks/relatorio.tex:225: Missing $ inserted.
+<inserted text> 
+                $
+l.225 ...extwidth]{"lab2_images/Screenshot_2.png"}
+                                                  
+[4] [5] (./relatorio.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `relatorio.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information)
+Output written on relatorio.xdv (6 pages, 55164 bytes).
+SyncTeX written on relatorio.synctex.gz.
+Transcript written on relatorio.log.
+Latexmk: Getting log file 'relatorio.log'
+Latexmk: Examining 'relatorio.fls'
+Latexmk: Examining 'relatorio.log'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'relatorio.xdv'
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  xelatex: Command for 'xelatex' gave return code 1
+      Refer to 'relatorio.log' and/or above output for details
+
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.

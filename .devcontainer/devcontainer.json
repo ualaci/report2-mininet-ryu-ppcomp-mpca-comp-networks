@@ -1,0 +1,17 @@
+{
+    "name": "LaTeX Dev Container",
+    "image": "texlive/texlive:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "James-Yu.latex-workshop"
+            ],
+            "settings": {
+                "latex-workshop.view.pdf.viewer": "tab",
+                "latex-workshop.latex.autoBuild.run": "onSave",
+                "latex-workshop.formatting.latex": "latexindent"
+            }
+        }
+    },
+    "remoteUser": "texlive"
+}
